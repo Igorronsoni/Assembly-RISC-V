@@ -41,6 +41,7 @@ O programa deve ter uma função main, a qual deve conter um menu com o acesso a
       Encerra a execução do programa mostrando a quantidade total de elementos inseridos e removidos;
       
 Segue o protótipo de cada uma das funções a serem implementadas pelo programa:\
+
 **int insere(int _lista[], int _elemento);**
   - retorna -1 caso não tenha sido possível inserir na lista e o indice da posição inserida em caso de sucesso;\
   - a função deve inserir o elemento de forma ordenada na lista;
