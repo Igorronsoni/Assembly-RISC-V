@@ -22,7 +22,7 @@ Os valores a serem inseridos na lista devem ser obtidos via teclado utilizando a
 Exemplo: A figura abaixo mostra 4 elementos presentes na lista ordenada (-6, 3, 11 e 19), os endereços de memória onde cada um está armazenado e o ponteiro para a posição de memória do próximo elemento da lista. No exemplo, ptr_start representa o endereço de memória inicial da lista.
 
 ptr_start = [200]
-![Exemplo](/src/imgs/exemplo.png)
+![Exemplo](/src/imgs/exemplo.PNG)
 
 O programa deve ter uma função main, a qual deve conter um menu com o acesso as seguintes funcionalidades:
   - **Inserir elemento na lista**\
