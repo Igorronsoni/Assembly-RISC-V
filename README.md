@@ -41,18 +41,18 @@ O programa deve ter uma função main, a qual deve conter um menu com o acesso a
       Encerra a execução do programa mostrando a quantidade total de elementos inseridos e removidos;
       
 Segue o protótipo de cada uma das funções a serem implementadas pelo programa:\
-<span style="color:red">int insere(int _lista[], int _elemento);</span>\
+**int insere(int _lista[], int _elemento);**
   - retorna -1 caso não tenha sido possível inserir na lista e o indice da posição inserida em caso de sucesso;\
   - a função deve inserir o elemento de forma ordenada na lista;
   
-<span style="color:red">int remove_indice(int _lista[], int indice);</span>\
+**int remove_indice(int _lista[], int indice);**
   - retorna -1 caso não tenha sido possível retirar da lista e o elemento retirado da posição caso contrário;
  
-<span style="color:red">int remove_valor(int _lista[], int valor);</span>\
+**int remove_valor(int _lista[], int valor);**
   - retorna -1 caso não tenha sido possível retirar da lista e o indice do elemento retirado caso contrário;\
   - deve retirar o primeiro elemento encontrado com o valor informado presente na lista;
 
-<span style="color:red">void imprime_lista(int _lista[]);</span>\
+**void imprime_lista(int _lista[]);**
   - a função deve mostrar na tela todos os elementos presentes na lista;
 
 Devem ser utilizadas as convenções de passagem e retorno de parâmetros do processador RISC V.\
