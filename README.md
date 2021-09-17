@@ -43,14 +43,14 @@ O programa deve ter uma função main, a qual deve conter um menu com o acesso a
 Segue o protótipo de cada uma das funções a serem implementadas pelo programa:\
 
 **int insere(int _lista[], int _elemento);**
-  - retorna -1 caso não tenha sido possível inserir na lista e o indice da posição inserida em caso de sucesso;\
+  - retorna -1 caso não tenha sido possível inserir na lista e o indice da posição inserida em caso de sucesso;
   - a função deve inserir o elemento de forma ordenada na lista;
   
 **int remove_indice(int _lista[], int indice);**
   - retorna -1 caso não tenha sido possível retirar da lista e o elemento retirado da posição caso contrário;
  
 **int remove_valor(int _lista[], int valor);**
-  - retorna -1 caso não tenha sido possível retirar da lista e o indice do elemento retirado caso contrário;\
+  - retorna -1 caso não tenha sido possível retirar da lista e o indice do elemento retirado caso contrário;
   - deve retirar o primeiro elemento encontrado com o valor informado presente na lista;
 
 **void imprime_lista(int _lista[]);**
